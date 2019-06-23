@@ -6,7 +6,7 @@ This repository is a submodule for [buildAPKs](https://github.com/BuildAPKs/buil
 ```
 
 cd && git clone https://github.com/BuildAPKs/buildAPKs
-./buildAPKs/scripts/build/buildCompasses.bash
+./buildAPKs/scripts/build/build.compasses.bash
 
 ```
 
