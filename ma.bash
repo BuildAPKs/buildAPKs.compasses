@@ -20,12 +20,14 @@ _SMATRPEXIT_() { # run on exit
 
 _SMATRPSIGNAL_() { # run on signal
 	local RV="$?"
+	_WAKEUNLOCK_
 	printf "\\e[?25h\\e[1;7;38;5;0mBuildAPKs %s WARNING:  Signal %s received!\\e[0m\\n" "ma.bash" "$RV"
  	exit 148 
 }
 
 _SMATRPQUIT_() { # run on quit
 	local RV="$?"
+	_WAKEUNLOCK_
 	printf "\\e[?25h\\e[1;7;38;5;0mBuildAPKs %s WARNING:  Quit signal %s received!\\e[0m\\n" "ma.bash" "$RV"
  	exit 149 
 }
