@@ -9,7 +9,6 @@ _SMATRPERROR_() { # run on script error
 	local RV="$?"
 	echo "$RV" ma.bash
 	printf "\\e[?25h\\n\\e[1;48;5;138mBuildAPKs %s ERROR:  Generated script error %s near or at line number %s by \`%s\`!\\e[0m\\n" "${PWD##*/}" "${1:-UNDEF}" "${2:-LINENO}" "${3:-BASH_COMMAND}"
-	_WAKEUNLOCK_
 	exit 147
 }
 
@@ -21,14 +20,12 @@ _SMATRPEXIT_() { # run on exit
 
 _SMATRPSIGNAL_() { # run on signal
 	local RV="$?"
-	_WAKEUNLOCK_
 	printf "\\e[?25h\\e[1;7;38;5;0mBuildAPKs %s WARNING:  Signal %s received!\\e[0m\\n" "ma.bash" "$RV"
  	exit 148 
 }
 
 _SMATRPQUIT_() { # run on quit
         printf "\\e[?25h\\n\\e[1;48;5;138mBuildAPKs nma.bash WARNING:  Quit signal %s received near or at line number %s by \`%s\`!\\e[0m\\n" "${1:-UNDEFINED}" "${2:-LINENO}" "${3:-BASH_COMMAND}"
-	_WAKEUNLOCK_
  	exit 149 
 }
 

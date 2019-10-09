@@ -75,5 +75,5 @@ cd4ed188e64e3739c9a849312b43891fc38e7e4332f325d594e6cc9ff7a70907  ./SensorDemo/r
 cf18583dc7c3dcc42888798fb10f38be1e0bc2033b3a12bb7d5889df3668d2be  ./SensorDemo/res/values/strings.xml
 321243b5f812890b59e9ba5678c3adab880b7d54649530052df116235da5c1a5  ./SensorDemo/src/com/marakana/android/sensors/CompassView.java
 3d6d7983f50a7666c69f645c0524d1ea63a9f7269688141299f0ee8c0207edd8  ./SensorDemo/src/com/marakana/android/sensors/SensorsDemoActivity.java
-4af03c7adb2c23124bd63da0e7519bb534c8a24206dded890841435d37ad0f53  ./ma.bash
-094675cd93bb8ee95417b023577e729741718f574e33698232eaf08ae7e10fe0  ./make.sums.bash
+8dc70165dec192eb38c70d7ff15c283fadcbceeac13adb56357475e76ff3bc65  ./do.trees.bash
+c7f3ee3c94abed3caa5ca5515bdf6d97f052dcef587791221726cc37f485a0a5  ./ma.bash
