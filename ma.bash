@@ -34,7 +34,6 @@ trap _SMATRPEXIT_ EXIT
 trap _SMATRPSIGNAL_ HUP INT TERM 
 trap '_SMATRPQUIT_ $? $LINENO $BASH_COMMAND' QUIT 
 
-JDR="$PWD"
 cd "$JDR"
 #_AT_ arpitjain099/Android-Accelerometer-Compass-GPS-sensors-data-logging 13845848c7fe3cbb542b3bed805c25c23a4dba28
 _AT_ burhanaras/Compass c974a16f1c4076a939bc0cefdf04d8e79fdff116
