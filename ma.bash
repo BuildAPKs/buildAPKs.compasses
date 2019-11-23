@@ -9,6 +9,7 @@ shopt -s nullglob globstar
 cd "$JDR"
 # _AT_ username/repository commit
 # _AT_ arpitjain099/Android-Accelerometer-Compass-GPS-sensors-data-logging 13845848c7fe3cbb542b3bed805c25c23a4dba28
+_AT_ 7heaven/Compass 3828eed9834b31df551997d5918eea805014a007
 _AT_ burhanaras/Compass c974a16f1c4076a939bc0cefdf04d8e79fdff116
 _AT_ farsitel/android_packages_apps_QiblaCompass d30afb971dbac8f49cf0b438572832d56cc32d12
 _AT_ iliu/Android-Compass c570a99cb37b9f100de83eac8a1ffc9bac1b9557
