@@ -1,10 +1,10 @@
-#!/bin/env bash
-# Copyright 2019 (c) all rights reserved by S D Rausty; see LICENSE  
+#!/usr/bin/env bash
+# Copyright 2019-2020 (c) all rights reserved by S D Rausty; see LICENSE  
 # https://sdrausty.github.io hosted courtesy https://pages.github.com
 # To create checksum files and commit use; ./do.sums.bash
 # To see file tree use; awk '{print $2}' sha512.sum
 # To check the files use; sha512sum -c sha512.sum
-#####################################################################
+################################################################################
 set -eu
 MTIME="$(ls -l --time-style=+"%s" .git/ORIG_HEAD 2>/dev/null | awk '{print $6}')"
 TIME="$(date +%s)"
