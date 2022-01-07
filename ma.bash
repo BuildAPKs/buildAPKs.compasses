@@ -22,5 +22,6 @@ rm -rf JosephChenEcho/Compass-V1.0/JosephChenEcho-Compass-V1.0-ee900c2/libs
 # _AT_ ldo/3D-Compass 3583e0490cd9c8a6a42e4507451e220c359b8405
 _AT_ oliverskawronek/compass-navigator 712a2192352dab13940a9cddaae362126c7e222c
 _AT_ phishman3579/android-compass 6fada1435b3dca1f30e72233ff05ae516cdd01e4
+_AT_ unlong/recordandreplay c4053421ce51e03e45bd4085eb2807ec2a0ac21f
 # _AT_ umair13adil/DirectionMeter 5975dd049f511992698bdd1ae51654824c177010
 # ma.bash OEF
